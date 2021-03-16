@@ -1,0 +1,15 @@
+library ieee;
+entity practica1 is
+port(
+ab: in std_logic_vector(1 downto 0);
+c: out std_logic);
+end;
+
+architecture arq of practica1a is
+begin
+with ab select 
+c <=  '0' when "00",
+		'0' when "01",
+		'0' when "10",
+		'1' when others;
+end;
