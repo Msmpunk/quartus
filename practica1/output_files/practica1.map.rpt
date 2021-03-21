@@ -1,5 +1,5 @@
 Analysis & Synthesis report for practica1
-Wed Mar 10 12:00:08 2021
+Tue Mar 16 17:15:29 2021
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 10 12:00:08 2021       ;
+; Analysis & Synthesis Status        ; Successful - Tue Mar 16 17:15:29 2021       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; practica1                                   ;
 ; Top-level Entity Name              ; practica1                                   ;
@@ -152,8 +152,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -163,45 +163,45 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                  ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
-; practica1.vhd                    ; yes             ; User VHDL File  ; C:/Users/msm_0/Desktop/QUARTUS-TAREAS/practica1/practica1.vhd ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                  ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
+; practica1.vhd                    ; yes             ; User VHDL File  ; C:/Users/msm_0/Desktop/quartus/practica1/practica1.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimated Total logic elements              ; 1     ;
-;                                             ;       ;
-; Total combinational functions               ; 1     ;
-; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 0     ;
-;     -- 3 input functions                    ; 0     ;
-;     -- <=2 input functions                  ; 1     ;
-;                                             ;       ;
-; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 1     ;
-;     -- arithmetic mode                      ; 0     ;
-;                                             ;       ;
-; Total registers                             ; 0     ;
-;     -- Dedicated logic registers            ; 0     ;
-;     -- I/O registers                        ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 3     ;
-;                                             ;       ;
-; Embedded Multiplier 9-bit elements          ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; c~0   ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 6     ;
-; Average fan-out                             ; 0.86  ;
-+---------------------------------------------+-------+
++------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary          ;
++---------------------------------------------+--------+
+; Resource                                    ; Usage  ;
++---------------------------------------------+--------+
+; Estimated Total logic elements              ; 1      ;
+;                                             ;        ;
+; Total combinational functions               ; 1      ;
+; Logic element usage by number of LUT inputs ;        ;
+;     -- 4 input functions                    ; 0      ;
+;     -- 3 input functions                    ; 0      ;
+;     -- <=2 input functions                  ; 1      ;
+;                                             ;        ;
+; Logic elements by mode                      ;        ;
+;     -- normal mode                          ; 1      ;
+;     -- arithmetic mode                      ; 0      ;
+;                                             ;        ;
+; Total registers                             ; 0      ;
+;     -- Dedicated logic registers            ; 0      ;
+;     -- I/O registers                        ; 0      ;
+;                                             ;        ;
+; I/O pins                                    ; 3      ;
+;                                             ;        ;
+; Embedded Multiplier 9-bit elements          ; 0      ;
+;                                             ;        ;
+; Maximum fan-out node                        ; Mux0~0 ;
+; Maximum fan-out                             ; 1      ;
+; Total fan-out                               ; 6      ;
+; Average fan-out                             ; 0.86   ;
++---------------------------------------------+--------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -259,13 +259,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Wed Mar 10 12:00:00 2021
+    Info: Processing started: Tue Mar 16 17:15:13 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off practica1 -c practica1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file practica1.vhd
-    Info (12022): Found design unit 1: practica1-arq File: C:/Users/msm_0/Desktop/QUARTUS-TAREAS/practica1/practica1.vhd Line: 14
-    Info (12023): Found entity 1: practica1 File: C:/Users/msm_0/Desktop/QUARTUS-TAREAS/practica1/practica1.vhd Line: 3
+    Info (12022): Found design unit 1: practica1-arq File: C:/Users/msm_0/Desktop/quartus/practica1/practica1.vhd Line: 14
+    Info (12023): Found entity 1: practica1 File: C:/Users/msm_0/Desktop/quartus/practica1/practica1.vhd Line: 3
 Info (12127): Elaborating entity "practica1" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -275,9 +275,9 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4792 megabytes
-    Info: Processing ended: Wed Mar 10 12:00:08 2021
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 670 megabytes
+    Info: Processing ended: Tue Mar 16 17:15:30 2021
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:38
 
 

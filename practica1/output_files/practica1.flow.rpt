@@ -1,5 +1,5 @@
 Flow report for practica1
-Wed Mar 10 12:00:19 2021
+Tue Mar 16 17:15:48 2021
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Mar 10 12:00:17 2021       ;
+; Flow Status                        ; Successful - Tue Mar 16 17:15:44 2021       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; practica1                                   ;
 ; Top-level Entity Name              ; practica1                                   ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/10/2021 12:00:00 ;
+; Start date & time ; 03/16/2021 17:15:14 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; practica1           ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 39908807777356.161539920009184         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 238579317288261.161593651307972        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -92,11 +92,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4792 MB             ; 00:00:17                           ;
-; Fitter               ; 00:00:04     ; 1.0                     ; 6190 MB             ; 00:00:07                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4679 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 4892 MB             ; 00:00:02                           ;
-; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:29                           ;
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 670 MB              ; 00:00:37                           ;
+; Fitter               ; 00:00:08     ; 1.0                     ; 1251 MB             ; 00:00:11                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 565 MB              ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 673 MB              ; 00:00:03                           ;
+; Total                ; 00:00:31     ; --                      ; --                  ; 00:00:55                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -105,10 +105,10 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-JS20K3S  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-JS20K3S  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-JS20K3S  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-JS20K3S  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-M39Q3K7  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-M39Q3K7  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-M39Q3K7  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-M39Q3K7  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

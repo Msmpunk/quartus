@@ -1,0 +1,26 @@
+|top1project
+a => tarea3:u1.a
+a => orproject:u2.a
+b => tarea3:u1.b
+b => orproject:u2.b
+c <= orproject:u3.c
+
+
+|top1project|tarea3:u1
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top1project|orproject:u2
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top1project|orproject:u3
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

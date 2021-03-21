@@ -8,11 +8,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "a",
+					"name" : "ab[0]",
 					"strict" : false
 				},
 				{
-					"name" : "b",
+					"name" : "ab[1]",
 					"strict" : false
 				}
 			]

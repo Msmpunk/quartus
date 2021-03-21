@@ -1,0 +1,25 @@
+library ieee;
+
+use ieee.std_logic_1164.all;
+
+entity top1project is
+
+port(
+
+a,b: in std_logic;
+-c:out std_logic
+
+);
+end;
+
+architecture arqtop1project of top1project is
+
+signal cable1, cable2: std_logic;
+
+begin
+
+u1: entity work.cand(arqcand) port map(a,b,c)
+u2: entity work.cor(arqcor) port map(a,b,c)
+u3: entity work.cor(arqcor) port map(a,b,c)
+
+end;
